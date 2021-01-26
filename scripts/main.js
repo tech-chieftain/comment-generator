@@ -74,7 +74,7 @@ e.preventDefault();
     }
 
     if(!x.recoded2){
-        decision+=`- Incorrect answer to where is Re:Coded is operating`
+        decision+=`- Incorrect answer to where Re:Coded is operating`
     
         decision+= "\n"
 
