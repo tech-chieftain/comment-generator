@@ -23,6 +23,7 @@ let motivation = document.querySelector('#motivation');
 let essay = document.querySelector('#essay');
 let submit = document.querySelector('#submit');
 let text = document.querySelector('#text');
+let form = document.querySelector('#form');
 
 
 submit.addEventListener('click',function (e) {
@@ -104,6 +105,7 @@ e.preventDefault();
     console.log(decision);
     
     text.value = decision;
+    form.reset();
     text.focus();
 
 })
